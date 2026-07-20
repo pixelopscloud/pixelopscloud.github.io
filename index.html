@@ -346,7 +346,7 @@ footer{border-top:1px solid #162030;padding:20px 32px;display:flex;justify-conte
           <span class="hp">∞ ArgoCD</span>
         </div>
         <div class="hbtns">
-          <a href="mailto:pixelopscloud@gmail.com" class="btn btnp">✉ Email Me</a>
+          <a href="mailto:muhammadali726200@gmail.com" class="btn btnp">✉ Email Me</a>
           <a href="https://linkedin.com/in/muhammad-ali-425a83325" class="btn btns" target="_blank">LinkedIn ↗</a>
           <a href="https://github.com/pixelopscloud" class="btn btns" target="_blank">GitHub ↗</a>
         </div>
@@ -560,6 +560,17 @@ footer{border-top:1px solid #162030;padding:20px 32px;display:flex;justify-conte
   <section class="sec" style="padding-top:100px">
     <div class="snum">// 03</div>
     <h2 class="stitle">Work Experience</h2>
+    <div class="expcard" style="border-color:rgba(0,212,255,.28)">
+      <div class="expbadge" style="background:#00d4ff;color:#060a12">CURRENT INTERNSHIP</div>
+      <div class="exprole">DevOps Intern</div>
+      <div class="expco">Davine Technologies · Remote</div>
+      <div class="expdt">July 2026 — Present · 3 months</div>
+      <ul class="exppts">
+        <li>Supporting DevOps projects across infrastructure and deployment tasks</li>
+        <li>Maintaining technical documentation for internal workflows</li>
+        <li>Collaborating with the team on execution of technical and operational activities</li>
+      </ul>
+    </div>
     <div class="expcard">
       <div class="expbadge">INTERNSHIP</div>
       <div class="exprole">DevOps Intern</div>
@@ -588,9 +599,18 @@ footer{border-top:1px solid #162030;padding:20px 32px;display:flex;justify-conte
     <h2 class="stitle">Projects</h2>
     <div class="pjgrid">
 
-      <!-- PROJECT 01 — ShopFlow (NEW LATEST) -->
+      <!-- PROJECT 01 — ShopNow (NEW LATEST) -->
       <div class="pj" style="border-color:rgba(0,212,255,.28)">
         <div class="pjnum" style="color:#00d4ff">01 · LATEST</div>
+        <div class="pjtitle">ShopNow — End-to-End DevSecOps + GitOps Microservices Platform</div>
+        <div class="pjdesc">Production-inspired microservices e-commerce app (5 backend services + React frontend). Fully Dockerized, deployed on Kubernetes via Helm Charts with ArgoCD GitOps. GitHub Actions CI pipeline runs Trivy security scans (filesystem + image) before publishing to Docker Hub, then auto-updates image tags in the infra repo for ArgoCD to sync. PostgreSQL + Redis running in-cluster, monitored via Prometheus & Grafana behind NGINX Ingress.</div>
+        <div class="pjtech"><span class="tb">React.js</span><span class="tb">Node.js</span><span class="tb">Express.js</span><span class="tb">PostgreSQL</span><span class="tb">Redis</span><span class="tb">Docker</span><span class="tb">Kubernetes</span><span class="tb">Helm</span><span class="tb">ArgoCD</span><span class="tb">GitHub Actions</span><span class="tb">Trivy</span><span class="tb">Prometheus</span><span class="tb">Grafana</span><span class="tb">NGINX Ingress</span></div>
+        <a href="https://linkedin.com/in/muhammad-ali-425a83325" class="pjlink" target="_blank">LinkedIn ↗</a>
+      </div>
+
+      <!-- PROJECT 02 — ShopFlow -->
+      <div class="pj">
+        <div class="pjnum">02</div>
         <div class="pjtitle">ShopFlow — Production-Grade DevSecOps Pipeline on Azure</div>
         <div class="pjdesc">Full DevSecOps pipeline from code to cloud on Azure. AKS + ACR provisioned via Terraform with remote state in Azure Blob Storage. GitHub Actions CI with SonarCloud (SAST), Trivy (image scanning), and OWASP ZAP (DAST) security gates. ArgoCD GitOps two-repo pattern across 3 environments (dev → staging → prod). Prometheus + Grafana monitoring with Slack alerting via webhook.</div>
         <div class="pjtech"><span class="tb">Azure AKS</span><span class="tb">Terraform</span><span class="tb">GitHub Actions</span><span class="tb">ArgoCD</span><span class="tb">Helm</span><span class="tb">SonarCloud</span><span class="tb">Trivy</span><span class="tb">OWASP ZAP</span><span class="tb">Prometheus</span><span class="tb">Grafana</span></div>
@@ -599,7 +619,7 @@ footer{border-top:1px solid #162030;padding:20px 32px;display:flex;justify-conte
 
       <!-- PROJECT 02 -->
       <div class="pj">
-        <div class="pjnum">02</div>
+        <div class="pjnum">03</div>
         <div class="pjtitle">DevSecOps — Attendance Portal on Kubernetes</div>
         <div class="pjdesc">Full DevSecOps pipeline — GitHub Actions CI, ArgoCD GitOps on KIND cluster. SonarCloud, Trivy, OWASP ZAP security gates all passed before production deploy.</div>
         <div class="pjtech"><span class="tb">GitHub Actions</span><span class="tb">ArgoCD</span><span class="tb">K8s</span><span class="tb">Docker</span><span class="tb">SonarCloud</span><span class="tb">Trivy</span><span class="tb">OWASP ZAP</span></div>
@@ -608,7 +628,7 @@ footer{border-top:1px solid #162030;padding:20px 32px;display:flex;justify-conte
 
       <!-- PROJECT 03 -->
       <div class="pj">
-        <div class="pjnum">03</div>
+        <div class="pjnum">04</div>
         <div class="pjtitle">GitOps Three-Tier App Deployment</div>
         <div class="pjdesc">Full-stack todo app (React + Node.js + MongoDB) on KIND K8s cluster using ArgoCD & GitHub Actions with self-hosted runner.</div>
         <div class="pjtech"><span class="tb">ArgoCD</span><span class="tb">K8s</span><span class="tb">GitHub Actions</span><span class="tb">Docker</span><span class="tb">KIND</span></div>
@@ -617,7 +637,7 @@ footer{border-top:1px solid #162030;padding:20px 32px;display:flex;justify-conte
 
       <!-- PROJECT 04 -->
       <div class="pj">
-        <div class="pjnum">04</div>
+        <div class="pjnum">05</div>
         <div class="pjtitle">DevSecOps Pipeline — Code to Kubernetes</div>
         <div class="pjdesc">End-to-end pipeline with Trivy security scanning, Jenkins CI, Docker, and MicroK8s deployment.</div>
         <div class="pjtech"><span class="tb">Jenkins</span><span class="tb">Trivy</span><span class="tb">Docker</span><span class="tb">MicroK8s</span></div>
@@ -626,7 +646,7 @@ footer{border-top:1px solid #162030;padding:20px 32px;display:flex;justify-conte
 
       <!-- PROJECT 05 -->
       <div class="pj">
-        <div class="pjnum">05</div>
+        <div class="pjnum">06</div>
         <div class="pjtitle">CI/CD Pipeline + Monitoring</div>
         <div class="pjdesc">Jenkins pipeline with Dockerized microservices, Kubernetes, Prometheus + Grafana monitoring.</div>
         <div class="pjtech"><span class="tb">Jenkins</span><span class="tb">Docker</span><span class="tb">K8s</span><span class="tb">Prometheus</span><span class="tb">Grafana</span></div>
@@ -635,7 +655,7 @@ footer{border-top:1px solid #162030;padding:20px 32px;display:flex;justify-conte
 
       <!-- PROJECT 06 -->
       <div class="pj">
-        <div class="pjnum">06</div>
+        <div class="pjnum">07</div>
         <div class="pjtitle">AWS Cloud Infrastructure + Auto-scaling</div>
         <div class="pjdesc">Scalable AWS infra with ASG, ALB, and CloudFront for high availability.</div>
         <div class="pjtech"><span class="tb">AWS</span><span class="tb">EC2</span><span class="tb">ALB</span><span class="tb">ASG</span></div>
@@ -644,7 +664,7 @@ footer{border-top:1px solid #162030;padding:20px 32px;display:flex;justify-conte
 
       <!-- PROJECT 07 -->
       <div class="pj">
-        <div class="pjnum">07</div>
+        <div class="pjnum">08</div>
         <div class="pjtitle">Terraform Infrastructure Automation</div>
         <div class="pjdesc">Full IaC setup for provisioning AWS resources with reusable Terraform modules.</div>
         <div class="pjtech"><span class="tb">Terraform</span><span class="tb">AWS</span><span class="tb">IaC</span></div>
@@ -653,7 +673,7 @@ footer{border-top:1px solid #162030;padding:20px 32px;display:flex;justify-conte
 
       <!-- PROJECT 08 -->
       <div class="pj">
-        <div class="pjnum">08</div>
+        <div class="pjnum">09</div>
         <div class="pjtitle">Kubernetes Container Orchestration</div>
         <div class="pjdesc">Production-grade K8s cluster with deployments, services, and ingress config.</div>
         <div class="pjtech"><span class="tb">K8s</span><span class="tb">EKS</span><span class="tb">Docker</span></div>
@@ -662,7 +682,7 @@ footer{border-top:1px solid #162030;padding:20px 32px;display:flex;justify-conte
 
       <!-- PROJECT 09 -->
       <div class="pj">
-        <div class="pjnum">09</div>
+        <div class="pjnum">10</div>
         <div class="pjtitle">AWS CodePipeline CI/CD</div>
         <div class="pjdesc">Serverless CI/CD with CodeCommit, CodeBuild, and CodeDeploy on AWS.</div>
         <div class="pjtech"><span class="tb">CodePipeline</span><span class="tb">CodeBuild</span><span class="tb">S3</span></div>
@@ -671,7 +691,7 @@ footer{border-top:1px solid #162030;padding:20px 32px;display:flex;justify-conte
 
       <!-- PROJECT 10 -->
       <div class="pj">
-        <div class="pjnum">10</div>
+        <div class="pjnum">11</div>
         <div class="pjtitle">Prometheus & Grafana Monitoring Stack</div>
         <div class="pjdesc">Full observability with metrics collection, alerting, and dashboards.</div>
         <div class="pjtech"><span class="tb">Prometheus</span><span class="tb">Grafana</span><span class="tb">Docker</span></div>
@@ -680,7 +700,7 @@ footer{border-top:1px solid #162030;padding:20px 32px;display:flex;justify-conte
 
       <!-- MORE -->
       <div class="pj" style="border-color:rgba(0,212,255,.15)">
-        <div class="pjnum">10+</div>
+        <div class="pjnum">11+</div>
         <div class="pjtitle">More Projects on GitHub</div>
         <div class="pjdesc">15+ DevOps projects: VPC design, Ansible playbooks, ECS deployments & more.</div>
         <div class="pjtech"><span class="tb">AWS</span><span class="tb">DevOps</span><span class="tb">Cloud</span></div>
@@ -702,7 +722,7 @@ footer{border-top:1px solid #162030;padding:20px 32px;display:flex;justify-conte
     <div class="snum">// 05</div>
     <h2 class="stitle">Get In Touch</h2>
     <div class="cngrid">
-      <a href="mailto:pixelopscloud@gmail.com" class="cni"><div class="cnico">✉️</div><div class="cnlbl">Email</div><div class="cnval">pixelopscloud@gmail.com</div></a>
+      <a href="mailto:muhammadali726200@gmail.com" class="cni"><div class="cnico">✉️</div><div class="cnlbl">Email</div><div class="cnval">muhammadali726200@gmail.com</div></a>
       <a href="tel:+923249426985" class="cni"><div class="cnico">📞</div><div class="cnlbl">Phone</div><div class="cnval">+92 324 942 6985</div></a>
       <a href="https://linkedin.com/in/muhammad-ali-425a83325" target="_blank" class="cni"><div class="cnico">💼</div><div class="cnlbl">LinkedIn</div><div class="cnval">muhammad-ali-425a83325</div></a>
       <a href="https://github.com/pixelopscloud" target="_blank" class="cni"><div class="cnico">🐙</div><div class="cnlbl">GitHub</div><div class="cnval">github.com/pixelopscloud</div></a>
